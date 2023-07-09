@@ -1,0 +1,3 @@
+Efficiency by ‘pruning’ state vars that are not currently relevant
+- dynamic relevance weight
+-> also Weight for level of that dynamicism
