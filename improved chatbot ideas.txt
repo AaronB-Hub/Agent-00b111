@@ -1,0 +1,33 @@
+1. Input - Take in prompts as text messages
+2. Interpretation - Model to transform prompt to a structured language equivalent prompt (SLEP)
+  - Confirm if equivalent
+  - Remove sentiment? Or confirm sentiment as secondary part of prompt?
+3. Classification - Determine type of SLEP by keywords (or model?)
+  - Fact claim
+  - Question
+    -- Information request
+    -- How-to
+    -- Seeking opinion/judgement
+  - Command
+  - ...
+4. Processing - Send SLEP to the model corresponding to its classification (these then generate a structured language response/SRP)
+  - Generate KB facts
+    -- Can check for acceptance or not
+  - Pass message to corresponding evaluation model for message type
+    -- Fact check -> Language model for aesthetic output
+    -- Logical inference generation
+
+  - Distribute message to appropriate response model by type of message
+    -- Generative AI response
+      --- Can be fact-checked if information request
+5. Voice - Generate response text from SRP
+6. Output - Format response
+
+
+- SL allows for interface between systems. Can develop them independently
+- Facts structured around objects like in Java. Have superclasses and subclasses that can override things. Adjectives are like interfaces? Where to put object history (should history of an object be its own separate object?)? All facts have probability. Can apply Bayesian/multiplicative to get confidence in fact.
+- SL transformer. Takes in normal language. Outputs SL. SL has a strict format and strict dictionary for certain parts of the format (i.e. can accept new nouns but maybe doesn't accept new verbs unless added to dictionary?
+- Want to be able to run inference checks to populate facts using related classes (i.e. John Hancock had hands (b/c was human)). But also want to run these checks to clean KB clean of unnecessary/redundant info
+- Additionally, every fact has a reference or set of references. In reference data structure, can assign trustworthiness scores to reference sources, which will affect the probability.
+  -- When to update probabilities? Calculate on demand when user wants to check output? Calculate at addition to KB?
+- Way to store facts like propositional logic to allow for fast lookups?
