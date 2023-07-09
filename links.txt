@@ -1,3 +1,12 @@
+https://farama.org/Announcing-The-Farama-Foundation
+  - https://github.com/altf4/libmelee/forks?activity_threshold=5y&include=active%2Cnetwork&page=1&sort_by=stargazer_counts
+  - https://github.com/altf4/libmelee/network/dependents
+https://github.com/altf4?tab=repositories
+  - https://github.com/altf4/robotoph
+  - https://github.com/altf4/smashbot_analysis
+  - https://github.com/project-slippi/slippi-wiki/blob/master/SPEC.md
+
+
 https://libmelee.readthedocs.io/en/latest/gamestate.html
   - https://github.com/pfirsich/meleeFrameDataExtractor
     -- http://melee-framedata.theshoemaker.de/fox/index.html
