@@ -1,0 +1,13 @@
+https://libmelee.readthedocs.io/en/latest/gamestate.html
+  - https://github.com/pfirsich/meleeFrameDataExtractor
+    -- http://melee-framedata.theshoemaker.de/fox/index.html
+  - https://meleeframedata.com/fox#
+  - https://www.ssbwiki.com/Fox_(SSBM)#Moveset
+https://github.com/davidtjones/melee-env
+https://github.com/wong-justin/melee-bot
+https://pathak22.github.io/noreward-rl/resources/icml17.pdf
+https://drive.google.com/file/d/1ab6ovA46tfiPZ2Y3a_yS1J3k3656yQ8f/edit
+  - https://github.com/AI-Spawn/ssbm-bot/blob/main/generate_data.py
+https://github.com/emily-halina/brisket
+https://github.com/vladfi1/slippi-ai
+https://github.com/Xeno-via/MelAI
