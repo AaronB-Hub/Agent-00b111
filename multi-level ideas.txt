@@ -1,0 +1,11 @@
+Flow:
+1. perception (get current state of system)
+2. Analysis (get Desired state of system)
+3. Planning (decide actions to change system state)
+4. Execution (perform actions)
+
+
+Behaviors
+  - scope of complexity?
+    -- Smallest is 1 state change (overall state with all values, not necessarily a player’s state)?
+    -- Or smallest is 1 input change?
