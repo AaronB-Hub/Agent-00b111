@@ -1,0 +1,29 @@
+Multi-system theory/model for human brains:
+- System 1 is fast but kinda dumb
+- System 2 is slow but smart
+
+
+Think that this would be a very useful template for models
+Potential systems:
+- Reinforcement learning (RL)
+- Attention-based token-prediction model (LLM)
+- Database lookup (DB)
+
+
+RL ideas:
+- NEAT?
+
+
+LLM ideas:
+- Use input strings as tokens
+- No input frames like spaces? Seem different in that space tokens are always the same length.
+-- May need a break token for longer pauses and control the length some other way?
+
+
+DB ideas:
+- Clear separation of fact versus theory entries?
+-- Or all the same type and just has a confidenece value?
+- Needs an entry generation system
+-- Editable
+- Entries solidify with time and confirmation
+-- Need a way to revise with enough evidence
