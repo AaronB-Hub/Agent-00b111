@@ -1,5 +1,5 @@
 Flow:
-1. perception (get current state of system)
+1. Perception (get current state of system)
 2. Analysis (get Desired state of system)
 3. Planning (decide actions to change system state)
 4. Execution (perform actions)
@@ -9,3 +9,17 @@ Behaviors
   - scope of complexity?
     -- Smallest is 1 state change (overall state with all values, not necessarily a player’s state)?
     -- Or smallest is 1 input change?
+
+
+
+
+Cognition levels:
+- Vision
+- Goals
+- Tasks
+- Actions
+- Execution
+
+Reinforcement-learned AI can be converted to transformer AI for simple bot opponents in games
+
+Can think of different levels in terms of state. Current versus desired state, how many intermediate states, states to avoid, etc.
