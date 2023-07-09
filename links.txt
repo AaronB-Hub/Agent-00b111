@@ -1,3 +1,10 @@
+https://neat-python.readthedocs.io/en/latest/neat_overview.html
+https://mikedepies.medium.com/meleeneat-novelty-search-and-super-smash-brothers-melee-cd80e64ff037
+https://libmelee.readthedocs.io/en/latest/
+https://github.com/altf4/SmashBot
+https://github.com/sacrarat/NEAT-SC2
+
+
 https://farama.org/Announcing-The-Farama-Foundation
   - https://github.com/altf4/libmelee/forks?activity_threshold=5y&include=active%2Cnetwork&page=1&sort_by=stargazer_counts
   - https://github.com/altf4/libmelee/network/dependents
