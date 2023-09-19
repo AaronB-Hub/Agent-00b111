@@ -1,0 +1,35 @@
+Definitions:
+
+{O} === [CLASS] <Use classic programming definition of a class>
+
+O === [OBJECT] A discrete instantiation of a class, which can have multiple states (some hidden and some observable)
+               -> Note that O_a denotes "The object 'a'"
+
+S = ΣO_i === [SYSTEM] A system is the set of all objects within a defined environment, all of which has their own intrinsic states as well as extrinsic states describing the relation of objects to one another
+
+
+
+E === [ENTITY] Entities are a type of objects that are capable of taking actions
+
+E.X() === [ACTION] An action 'X' is anything done by an entity 'E' to change one or more objects' states
+                   -> The result of an action is not always the same and can depend on a number of parameters
+
+
+
+O(t) === [STATE] The state of an object at time 't'
+                 -> An object 'O' can be perfectly described at any point in time 'O(t) by its initial state 'O(0)' and the sequence of all actions taken upon it
+
+S(t) === [STATE] Complete state of the system at time 't'
+                 -> S(t + 1) = S(t) + ΣE_i.X(t)
+
+
+
+A === [AGENT] Anything that is outside of the system that can interact with objects within it, through the use of an entity 'E_A'
+
+
+
+A:a(t) === [AGENT-ACTUAL] All Agent inputs at time 't'
+
+Pr(A:a(t)) = A:e(t) === [AGENT-EFFECTIVE] Effective Agent inputs after any processing
+
+A:e(t) ↦ E_A.X(t) === [BINDING] The agent control inputs are bound to specific actions that its entity can take
