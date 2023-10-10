@@ -1,0 +1,1 @@
+- Give higher-level networks the ability to dynamically choose inputs to lower-level networks (or maybe weight them down/up instead of on/off)
