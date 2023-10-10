@@ -1,1 +1,3 @@
+- Make helper functions to create more useful inputs than just what game gives you
 - Give higher-level networks the ability to dynamically choose inputs to lower-level networks (or maybe weight them down/up instead of on/off)
+  -> This could include selecting helper functions or making changes to them dynamically for a different input based on system conditions
